@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="80" x2="1400" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#21172A"/>
+      <stop offset="0.48" stop-color="#2A2137"/>
+      <stop offset="1" stop-color="#120F1A"/>
+    </linearGradient>
+    <radialGradient id="gold" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(820 320) rotate(90) scale(300 520)">
+      <stop stop-color="#E3BD79" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#E3BD79" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mint" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260 180) rotate(90) scale(240 360)">
+      <stop stop-color="#77C7B4" stop-opacity=".20"/>
+      <stop offset="1" stop-color="#77C7B4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rose" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1320 180) rotate(90) scale(240 360)">
+      <stop stop-color="#C38EAA" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#C38EAA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#gold)"/>
+  <rect width="1600" height="900" fill="url(#mint)"/>
+  <rect width="1600" height="900" fill="url(#rose)"/>
+  <g opacity=".7">
+    <path d="M0 684C184 628 317 612 484 636C707 668 826 732 1003 726C1184 720 1342 613 1600 589V900H0V684Z" fill="#1A1422"/>
+    <path d="M0 742C184 706 336 710 498 746C643 778 791 842 1011 828C1216 815 1392 694 1600 678V900H0V742Z" fill="#130F18"/>
+  </g>
+  <g opacity=".26" stroke="#FFF7EB">
+    <path d="M214 210C366 278 604 291 731 229"/>
+    <path d="M945 231C1035 198 1189 198 1314 246"/>
+    <path d="M540 140C637 91 799 81 920 121"/>
+  </g>
+</svg>

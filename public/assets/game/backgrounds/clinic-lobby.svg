@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="wall" x1="800" y1="0" x2="800" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B79C7D"/>
+      <stop offset=".46" stop-color="#9B856C"/>
+      <stop offset="1" stop-color="#6C5A4D"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="800" y1="560" x2="800" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#55483F"/>
+      <stop offset="1" stop-color="#2B2220"/>
+    </linearGradient>
+    <linearGradient id="window" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#DCEAE7"/>
+      <stop offset="1" stop-color="#9ABFB7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#wall)"/>
+  <rect y="610" width="1600" height="290" fill="url(#floor)"/>
+  <rect x="146" y="126" width="388" height="286" rx="20" fill="#F4E5D2" fill-opacity=".32" stroke="#FFF7EB" stroke-opacity=".2"/>
+  <rect x="180" y="160" width="320" height="218" rx="12" fill="url(#window)"/>
+  <path d="M340 160V378" stroke="#FFF7EB" stroke-opacity=".42" stroke-width="8"/>
+  <path d="M180 269H500" stroke="#FFF7EB" stroke-opacity=".42" stroke-width="8"/>
+  <rect x="980" y="120" width="420" height="450" rx="22" fill="#715D4F"/>
+  <rect x="1006" y="146" width="368" height="398" rx="14" fill="#EAD9C1" fill-opacity=".22" stroke="#FFF7EB" stroke-opacity=".14"/>
+  <rect x="1060" y="228" width="260" height="18" rx="9" fill="#FFF7EB" fill-opacity=".12"/>
+  <rect x="1060" y="278" width="216" height="18" rx="9" fill="#FFF7EB" fill-opacity=".1"/>
+  <rect x="1060" y="328" width="240" height="18" rx="9" fill="#FFF7EB" fill-opacity=".1"/>
+  <rect x="596" y="520" width="406" height="128" rx="30" fill="#4C5D53"/>
+  <rect x="630" y="490" width="338" height="62" rx="24" fill="#5E7468"/>
+  <rect x="642" y="474" width="314" height="40" rx="20" fill="#E3BD79" fill-opacity=".34"/>
+  <rect x="84" y="610" width="183" height="170" rx="16" fill="#3F332D"/>
+  <rect x="1298" y="628" width="134" height="132" rx="18" fill="#4F443E"/>
+  <circle cx="1314" cy="168" r="74" fill="#FFF7EB" fill-opacity=".08"/>
+  <circle cx="1314" cy="168" r="124" fill="#FFF7EB" fill-opacity=".05"/>
+</svg>
